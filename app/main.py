@@ -7,7 +7,7 @@ import os
 import uvicorn
 
 templates = Jinja2Templates(directory="frontend/template")
-os.environ['_BARD_API_KEY']="WQime0Nn0rxdHQi3R2kQc27AXmm3GrvtKG0j0UoYpnNUJlIo4RR75KEwOL3vrhG5tZyrWg."
+os.environ['_BARD_API_KEY']="<Bard_Key>"
 app=FastAPI()
 
 @app.get("/")
